@@ -1,0 +1,52 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#f4f1ea"/>
+  <rect x="78" y="54" width="1124" height="612" rx="24" fill="#F9F6F1" stroke="#DDD4C8" stroke-width="2"/>
+  <rect x="78" y="54" width="1124" height="56" rx="24" fill="#E7DDD0"/>
+  <circle cx="120" cy="82" r="8" fill="#C65A3A"/>
+  <circle cx="146" cy="82" r="8" fill="#D9A441"/>
+  <circle cx="172" cy="82" r="8" fill="#2D8A5B"/>
+  <text x="640" y="89" text-anchor="middle" fill="#2D2A26" font-size="22" font-family="Arial, sans-serif" font-weight="700">Expense Tracker</text>
+
+  <rect x="128" y="146" width="1024" height="92" rx="18" fill="#E7DDD0" stroke="#DDD4C8"/>
+  <text x="160" y="186" fill="#2D2A26" font-size="30" font-family="Arial, sans-serif" font-weight="700">Expense Tracker</text>
+  <text x="160" y="214" fill="#6F6A63" font-size="16" font-family="Arial, sans-serif">Track your income and expenses in one place.</text>
+
+  <rect x="128" y="270" width="320" height="110" rx="18" fill="#FFFFFF" stroke="#DDD4C8"/>
+  <rect x="128" y="270" width="8" height="110" rx="4" fill="#2D8A5B"/>
+  <text x="160" y="314" fill="#6F6A63" font-size="16" font-family="Arial, sans-serif">Total Income</text>
+  <text x="160" y="348" fill="#2D2A26" font-size="30" font-family="Arial, sans-serif" font-weight="700">$2,400.00</text>
+
+  <rect x="480" y="270" width="320" height="110" rx="18" fill="#FFFFFF" stroke="#DDD4C8"/>
+  <rect x="480" y="270" width="8" height="110" rx="4" fill="#C65A3A"/>
+  <text x="512" y="314" fill="#6F6A63" font-size="16" font-family="Arial, sans-serif">Total Expenses</text>
+  <text x="512" y="348" fill="#2D2A26" font-size="30" font-family="Arial, sans-serif" font-weight="700">$820.00</text>
+
+  <rect x="832" y="270" width="320" height="110" rx="18" fill="#FFFFFF" stroke="#DDD4C8"/>
+  <rect x="832" y="270" width="8" height="110" rx="4" fill="#3F6FB6"/>
+  <text x="864" y="314" fill="#6F6A63" font-size="16" font-family="Arial, sans-serif">Balance</text>
+  <text x="864" y="348" fill="#2D2A26" font-size="30" font-family="Arial, sans-serif" font-weight="700">$1,580.00</text>
+
+  <rect x="128" y="412" width="492" height="210" rx="18" fill="#FFFFFF" stroke="#DDD4C8"/>
+  <text x="160" y="450" fill="#2D2A26" font-size="22" font-family="Arial, sans-serif" font-weight="700">Recent Transactions</text>
+
+  <rect x="160" y="476" width="428" height="50" rx="12" fill="#FAF8F4" stroke="#DDD4C8"/>
+  <text x="184" y="507" fill="#2D2A26" font-size="16" font-family="Arial, sans-serif" font-weight="700">Salary</text>
+  <text x="520" y="507" fill="#2D8A5B" font-size="16" font-family="Arial, sans-serif" font-weight="700">+$2,000.00</text>
+
+  <rect x="160" y="540" width="428" height="50" rx="12" fill="#FAF8F4" stroke="#DDD4C8"/>
+  <text x="184" y="571" fill="#2D2A26" font-size="16" font-family="Arial, sans-serif" font-weight="700">Groceries</text>
+  <text x="510" y="571" fill="#C65A3A" font-size="16" font-family="Arial, sans-serif" font-weight="700">-$120.00</text>
+
+  <rect x="660" y="412" width="492" height="210" rx="18" fill="#FFFFFF" stroke="#DDD4C8"/>
+  <text x="692" y="450" fill="#2D2A26" font-size="22" font-family="Arial, sans-serif" font-weight="700">Spending by Category</text>
+
+  <text x="692" y="498" fill="#2D2A26" font-size="16" font-family="Arial, sans-serif" font-weight="700">Food</text>
+  <rect x="692" y="514" width="350" height="12" rx="6" fill="#E9E2D8"/>
+  <rect x="692" y="514" width="220" height="12" rx="6" fill="#2F6F5E"/>
+  <text x="1068" y="524" fill="#2D2A26" font-size="15" font-family="Arial, sans-serif">$320</text>
+
+  <text x="692" y="560" fill="#2D2A26" font-size="16" font-family="Arial, sans-serif" font-weight="700">Transport</text>
+  <rect x="692" y="576" width="350" height="12" rx="6" fill="#E9E2D8"/>
+  <rect x="692" y="576" width="146" height="12" rx="6" fill="#2F6F5E"/>
+  <text x="1068" y="586" fill="#2D2A26" font-size="15" font-family="Arial, sans-serif">$210</text>
+</svg>

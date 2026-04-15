@@ -1,6 +1,14 @@
 # Expense Tracker
 
-A simple expense tracker built with HTML, CSS, and JavaScript.
+A simple and beginner-friendly expense tracker built with HTML, CSS, and JavaScript.
+
+## Live Demo
+
+[Open the project on GitHub Pages](https://akshat-create.github.io/Expense-Tracker/)
+
+## Preview
+
+![Expense Tracker preview](assets/expense-tracker-preview.svg)
 
 ## Features
 
@@ -20,9 +28,9 @@ A simple expense tracker built with HTML, CSS, and JavaScript.
 
 ## How to Run
 
-1. Download or clone the project.
+1. Clone or download the project.
 2. Open `Index.html` in your browser.
 
 ## Project Goal
 
-This project is made to be simple, beginner-friendly, and easy to understand.
+This project is made to be simple, readable, and easy to understand for beginners.
