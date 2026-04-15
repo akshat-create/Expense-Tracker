@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="hero">
+            <h1>Expense Tracker</h1>
+            <p>Track your income and expenses in one place.</p>
+        </header>
+
+        <main class="content">
+            <section class="card">
+                <h2>Overview</h2>
+                <div class="summary-section">
+                    <div class="summary-card income">
+                        <p class="summary-label">Total Income</p>
+                        <p class="summary-amount" id="totalIncome">$0.00</p>
+                    </div>
+
+                    <div class="summary-card expense">
+                        <p class="summary-label">Total Expenses</p>
+                        <p class="summary-amount" id="totalExpense">$0.00</p>
+                    </div>
+
+                    <div class="summary-card balance">
+                        <p class="summary-label">Balance</p>
+                        <p class="summary-amount" id="totalBalance">$0.00</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Add New Transaction</h2>
+                <form class="expense-form" id="expenseForm">
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <input
+                            type="text"
+                            id="description"
+                            placeholder="Example: Grocery shopping"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="amount">Amount</label>
+                            <input
+                                type="number"
+                                id="amount"
+                                placeholder="0.00"
+                                min="0"
+                                step="0.01"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="category">Category</label>
+                            <select id="category" required>
+                                <option value="">Select category</option>
+                                <option value="Food">Food & Dining</option>
+                                <option value="Transport">Transport</option>
+                                <option value="Entertainment">Entertainment</option>
+                                <option value="Shopping">Shopping</option>
+                                <option value="Bills">Bills & Utilities</option>
+                                <option value="Health">Health & Fitness</option>
+                                <option value="Education">Education</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="type">Type</label>
+                            <select id="type" required>
+                                <option value="expense">Expense</option>
+                                <option value="income">Income</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Add Transaction</button>
+                </form>
+            </section>
+
+            <section class="card">
+                <h2>Filter Transactions</h2>
+                <div class="filters">
+                    <select id="categoryFilter" class="filter-input">
+                        <option value="">All Categories</option>
+                        <option value="Food">Food & Dining</option>
+                        <option value="Transport">Transport</option>
+                        <option value="Entertainment">Entertainment</option>
+                        <option value="Shopping">Shopping</option>
+                        <option value="Bills">Bills & Utilities</option>
+                        <option value="Health">Health & Fitness</option>
+                        <option value="Education">Education</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <select id="typeFilter" class="filter-input">
+                        <option value="">All Types</option>
+                        <option value="income">Income</option>
+                        <option value="expense">Expense</option>
+                    </select>
+
+                    <input
+                        type="text"
+                        id="searchInput"
+                        class="filter-input"
+                        placeholder="Search by description"
+                    >
+
+                    <button type="button" class="btn btn-secondary" id="resetBtn">Reset Filters</button>
+                </div>
+            </section>
+
+            <section class="card">
+                <div class="section-header">
+                    <h2>Recent Transactions</h2>
+                    <p class="transaction-count" id="transactionCount">0 transactions</p>
+                </div>
+
+                <div id="transactionsList" class="transactions-list">
+                    <div class="empty-state">
+                        <p>No transactions yet.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Spending by Category</h2>
+                <div id="categoryBreakdown" class="category-breakdown">
+                    <div class="empty-state">
+                        <p>No expense data to display.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card actions-section">
+                <button type="button" class="btn btn-danger" id="clearAllBtn">Clear All Data</button>
+                <button type="button" class="btn btn-secondary" id="exportBtn">Export CSV</button>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
