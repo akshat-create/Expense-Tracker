@@ -35,7 +35,7 @@ A simple and beginner-friendly expense tracker built with HTML, CSS, and JavaScr
 
 ## Project Structure
 
-- `Index.html` - main page structure
+- `index.html` - main page structure
 - `style.css` - layout and design
 - `script.js` - transaction logic and storage handling
 - `assets/expense-tracker-preview.svg` - preview image for the README
@@ -44,7 +44,7 @@ A simple and beginner-friendly expense tracker built with HTML, CSS, and JavaScr
 
 1. Clone the repository.
 2. Open the project folder.
-3. Run `Index.html` in your browser.
+3. Run `index.html` in your browser.
 
 ## Why This Project
 
